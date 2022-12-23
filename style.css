@@ -1,3 +1,67 @@
-div {
-    background-color: black;
+.signup-contianer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: flex;
+}
+
+.leftside-bar {
+    display: inline;
+    background-image: url("\left-image.jpg");
+    height: 100vh;
+    width: 40vw;
+   background-size: cover;
+}
+
+.left-content{
+    font-size: 4rem;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    margin-top: 30%;
+}
+
+.signup-contianer .leftside-bar .left-content .content p{
+    color: white;
+    text-align: center;
+    opacity: 0.75;
+}
+
+.rightside-section {
+    background-color: antiquewhite;
+    flex-grow: 1;
+    padding: 1rem;
+    width: 100vw;
+}
+
+.body{
+    background-color: aliceblue;
+    padding: 1rem;
+}
+
+.footer {
+    padding: 1rem;
+}
+
+.form-element{
+    display: block;
+    flex:0 0 50%;
+}
+
+.form-element :focus{
+    display: block;
+    flex:0 0 50%;
+    box-shadow:5px 5px 30px #E5E7EB;
+    border: solid;
+    border-color: #E5E7EB;
+}
+
+label,input {
+    display: block;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
